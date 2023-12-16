@@ -1,4 +1,3 @@
-# Next.Js-Node.Js-Prisma-Postgres-Docker
 
 # Next.Js-Node.Js-Prisma-Postgres-Docker
 

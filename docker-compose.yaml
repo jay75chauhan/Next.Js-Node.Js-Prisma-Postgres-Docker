@@ -6,7 +6,7 @@ services:
     image: frontend
     build:
       context: ./frontend
-      dockerfile: frontend.dockerfile
+      dockerfile: nextjs.dockerfile
     ports:
       - 3000:3000
     environment:
@@ -19,7 +19,7 @@ services:
     image: backend
     build:
       context: ./backend
-      dockerfile: backend.dockerfile
+      dockerfile: nodejs.dockerfile
     ports:
       - 8001:8001
     environment:
